@@ -40,7 +40,7 @@ Source Code
 
 - [main](https://github.com/dileepabandara/dileepabandara.dev/tree/main) - Stable and latest version of the source code
 - [1.0.0](https://github.com/dileepabandara/dileepabandara.dev/tree/1.0.0) - Stable 1.0.0 version of the source code
-- [1.1.x](https://github.com/dileepabandara/dileepabandara.dev/tree/1.1.x) - Unstable and development versions of the source code
+- [1.1.2](https://github.com/dileepabandara/dileepabandara.dev/tree/1.1.2) - Unstable and development versions of the source code
 
 Web Build
 
