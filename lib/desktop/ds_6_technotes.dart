@@ -7,7 +7,7 @@ import '../widgets/container_card.dart';
 import '../widgets/frame_title.dart';
 
 class DS6TechNotes extends StatelessWidget {
-  const DS6TechNotes({Key? key}) : super(key: key);
+  const DS6TechNotes({super.key});
 
   @override
   Widget build(BuildContext context) {

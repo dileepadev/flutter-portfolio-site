@@ -8,7 +8,7 @@ import '../widgets/container_card.dart';
 import '../widgets/frame_title.dart';
 
 class DS5Volunteering extends StatelessWidget {
-  const DS5Volunteering({Key? key}) : super(key: key);
+  const DS5Volunteering({super.key});
 
   @override
   Widget build(BuildContext context) {

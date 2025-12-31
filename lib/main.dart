@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Dileepa Bandara',
+      title: 'Flutter Portfolio Site',
       debugShowCheckedModeBanner: false,
       theme: AppThemeData.darkTheme,
       home: const HomePage(),
@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
 }
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -52,19 +52,15 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     _scrollController = ScrollController()
-      ..addListener(
-        () {
-          setState(
-            () {
-              if (_scrollController.offset >= 300) {
-                _showBackToTopButton = true;
-              } else {
-                _showBackToTopButton = false;
-              }
-            },
-          );
-        },
-      );
+      ..addListener(() {
+        setState(() {
+          if (_scrollController.offset >= 300) {
+            _showBackToTopButton = true;
+          } else {
+            _showBackToTopButton = false;
+          }
+        });
+      });
 
     super.initState();
   }
@@ -76,8 +72,11 @@ class _HomePageState extends State<HomePage> {
   }
 
   void _scrollToTop() {
-    _scrollController.animateTo(0,
-        duration: const Duration(milliseconds: 1000), curve: Curves.easeInOut);
+    _scrollController.animateTo(
+      0,
+      duration: const Duration(milliseconds: 1000),
+      curve: Curves.easeInOut,
+    );
   }
 
   @override
@@ -140,9 +139,7 @@ class _HomePageState extends State<HomePage> {
               tooltip: 'Go to top',
               backgroundColor: AppThemeData.buttonPrimary,
               foregroundColor: AppThemeData.iconSecondary,
-              child: const Icon(
-                Icons.arrow_upward_rounded,
-              ),
+              child: const Icon(Icons.arrow_upward_rounded),
             ),
     );
   }

@@ -10,7 +10,7 @@ import '../widgets/container_banner.dart';
 import '../widgets/frame_title.dart';
 
 class MS2AboutMe extends StatelessWidget {
-  const MS2AboutMe({Key? key}) : super(key: key);
+  const MS2AboutMe({super.key});
 
   Widget bio(BuildContext context) {
     return SizedBox(
@@ -133,8 +133,9 @@ class MS2AboutMe extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const FrameTitle(
-                title: DataValues.aboutMeTitle,
-                description: DataValues.aboutMeDescription),
+              title: DataValues.aboutMeTitle,
+              description: DataValues.aboutMeDescription,
+            ),
             const SizedBox(height: 40.0),
             bio(context),
             const SizedBox(height: 40.0),
@@ -142,13 +143,14 @@ class MS2AboutMe extends StatelessWidget {
             const SizedBox(height: 80.0),
             Center(
               child: ContainerBanner().type1(
-                  isDesktop: true,
-                  title1: DataValues.aboutMeBanner,
-                  title2: DataValues.aboutMeBannerTitle,
-                  description: DataValues.aboutMeBannerWeb,
-                  image: 'logo',
-                  message: 'View Profiles',
-                  url: DataValues.profilesURL),
+                isDesktop: true,
+                title1: DataValues.aboutMeBanner,
+                title2: DataValues.aboutMeBannerTitle,
+                description: DataValues.aboutMeBannerWeb,
+                image: 'logo',
+                message: 'View Profiles',
+                url: DataValues.linksURL,
+              ),
             ),
           ],
         ),

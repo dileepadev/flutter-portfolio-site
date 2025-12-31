@@ -1,33 +1,40 @@
 class DataValues {
   // About App
-  static const String appName = 'Dileepa Bandara';
-  static const String appNameLong = 'dileepabandara.dev';
+  static const String appName = 'Flutter Portfolio Site';
+  static const String appNameLong = 'dileepa.dev';
   static const String appDescription =
       'Hello there, I\'m Dileepa Bandara. This is my personal website, which contains public information that anyone can find on the internet.';
   static const String appDeveloper = 'Dileepa Bandara';
-  static const String appPackage = 'dev.dileepabandara.dileepabandara_dev';
-  static const String appVersion = '1.1.2';
+  static const String appPackage = 'dev.dileepa.flutter_portfolio_site';
+  static const String appVersion = '1.2.0';
   static const String appBuildNumber = '1';
 
   // External links
-  static Uri devURL = Uri.parse('https://dileepabandara.dev');
-  static Uri hashnodeURL = Uri.parse('https://hashnode.com/@dileepabandara');
-  static Uri githubURL = Uri.parse('https://github.com/dileepabandara');
-  static Uri linkedinURL = Uri.parse('https://linkedin.com/in/dileepabandara');
-  static Uri twitterURL = Uri.parse('https://twitter.com/_dileepabandara');
-  static Uri youtubeURL = Uri.parse('https://youtube.com/@flutterscope');
+  static Uri devURL = Uri.parse('http://dileepa.dev');
+  static Uri hashnodeURL = Uri.parse('https://hashnode.com/@dileepadev');
+  static Uri githubURL = Uri.parse('https://github.com/dileepadev');
+  static Uri linkedinURL = Uri.parse('https://linkedin.com/in/dileepadev');
+  static Uri twitterURL = Uri.parse('https://x.com/dileepadev');
+  static Uri youtubeURL = Uri.parse('https://www.youtube.com/@dileepadev');
   static Uri telegramURL = Uri.parse('https://t.me/dileepabandara');
-  static Uri facebookURL = Uri.parse('https://facebook.com/0dileepabandara');
-  static Uri instagramURL = Uri.parse('https://instagram.com/_dileepabandara');
-  static Uri repoURL =
-      Uri.parse('https://github.com/dileepabandara/dileepabandara.dev');
-  static Uri biographyURL = Uri.parse('https://biography.dileepabandara.dev');
-  static Uri profilesURL = Uri.parse('https://profile.dileepabandara.dev');
-  static Uri toolkitURL = Uri.parse('https://toolkit.dileepabandara.dev');
-  static Uri volunteeringURL =
-      Uri.parse('https://volunteer.dileepabandara.dev');
-  static Uri technotesURL = Uri.parse('https://techdiary.dileepabandara.dev');
-  static Uri lateNightStudentURL = Uri.parse('https://blog.dileepabandara.dev');
+  static Uri facebookURL = Uri.parse('https://facebook.com/dileepadev');
+  static Uri instagramURL = Uri.parse('https://instagram.com/dileepadev');
+  static Uri repoURL = Uri.parse(
+    'https://github.com/dileepadev/flutter-portfolio-site',
+  );
+  static Uri biographyURL = Uri.parse('https://biography.dileepa.dev');
+  // static Uri profilesURL = Uri.parse(
+  //   'https://dileepadev.github.io/flutter-portfolio-site',
+  // );
+  static Uri linksURL = Uri.parse(
+    'https://dileepadev.github.io/flutter-links-site',
+  );
+  static Uri toolkitURL = Uri.parse(
+    'https://dileepadev.github.io/flutter-portfolio-site',
+  );
+  static Uri volunteeringURL = Uri.parse('https://volunteer.dileepa.dev');
+  static Uri technotesURL = Uri.parse('https://techdiary.dileepa.dev');
+  static Uri lateNightStudentURL = Uri.parse('https://blog.dileepa.dev');
 
   // Header
   static const String headerGreetings = 'Hello, World! I\'m';
@@ -62,7 +69,8 @@ class DataValues {
   static const String aboutMeDobTitle = 'Birthday';
   static const String aboutMeDobDescription = 'July 24, 1997';
   static const String aboutMeLanguageTitle = 'Languages';
-  static const String aboutMeLanguageDescription = 'Sinhala (Native)\n'
+  static const String aboutMeLanguageDescription =
+      'Sinhala (Native)\n'
       'English (Professional)';
   static const String aboutMeNationalityTitle = 'Nationality';
   static const String aboutMeNationalityDescription = 'Sri Lankan';
@@ -72,7 +80,8 @@ class DataValues {
   static const String aboutMeLocationDescription =
       'Kurunegala, Sri Lanka\nColombo, Sri Lanka';
   static const String aboutMeWorkDomainTitle = 'Working Domain';
-  static const String aboutMeWorkDomainDescription = 'dileepabandara.dev\n'
+  static const String aboutMeWorkDomainDescription =
+      'dileepa.dev\n'
       '08:00 - 18:00 (GMT+5:30)';
   static const String aboutMeStudentTitle = 'Computing Student';
   static const String aboutMeStudentDescription =
@@ -84,7 +93,8 @@ class DataValues {
   static const String aboutMeVolunteerDescription =
       'I\'ve been a volunteer for many years and have had the opportunity to make a difference in my social and technical communities. Volunteering has allowed me to learn more about the people and things around me while also making a positive difference in the lives of those I serve, and by volunteering, I would love to help others reach their life goals.';
   static const String aboutMeHobbiesTitle = 'Hobbies';
-  static const String aboutMeHobbiesDescription = 'Learning New Things\n'
+  static const String aboutMeHobbiesDescription =
+      'Learning New Things\n'
       'Watching Movies & TV Shows\n'
       'Listening to Music & Dancing\n'
       'Content Creation';
@@ -94,7 +104,7 @@ class DataValues {
   static const String aboutMeBanner = 'You can find my';
   static const String aboutMeBannerTitle = 'public profiles';
   static const String aboutMeBannerWeb =
-      'Visit profile.dileepabandara.dev to find all my public profiles.';
+      'Visit dileepadev.github.io/flutter-portfolio-site to find all my public profiles.';
 
   // Education
   static const String educationTitle = 'Education';
@@ -151,7 +161,7 @@ class DataValues {
   static const String experienceBanner = 'Find my working';
   static const String experienceBannerTitle = 'toolkit';
   static const String experienceBannerWeb =
-      'Visit toolkit.dileepabandara.dev for more details >>';
+      'Visit dileepadev.github.io/flutter-portfolio-site for more details >>';
 
   // Volunteering
   static const String volunteeringTitle = 'Volunteering';
@@ -171,7 +181,7 @@ class DataValues {
   static const String volunteeringBanner = 'Find more about my';
   static const String volunteeringBannerTitle = 'volunteering';
   static const String volunteeringBannerWeb =
-      'Visit volunteer.dileepabandara.dev for more details >>';
+      'Visit volunteer.dileepa.dev for more details >>';
 
   // TechNotes
   static const String technotesTitle = 'TechNotes';
@@ -194,11 +204,11 @@ class DataValues {
   static const String contactDescription =
       'Hey! I appreciate you looking at my public profile. Please feel free to ask me anything or to discuss anything with me. I\'m happy to chat with and meet new people. Regardless of the fact that I don\'t use social media much, you can find me there. So find me and get in touch with me. Send me an email if you need to discuss anything serious with me. I\'ll get back to you in 12 to 24 hours.';
   static const String contactBanner = 'Send me an email at';
-  static const String contactEmail = 'contact@dileepabandara.dev';
+  static const String contactEmail = 'contact@dileepa.dev';
 
   // Footer
   static const String copyright =
-      "Copyright ©2023 Dileepa Bandara. All Rights Reserved.";
+      "Copyright ©2025 Dileepa Bandara. All Rights Reserved.";
 
   static const String builtWith = "Built with Flutter and GitHub Pages.";
 }

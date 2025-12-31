@@ -9,7 +9,7 @@ import '../widgets/frame_title.dart';
 import '../widgets/social_profiles.dart';
 
 class DS7Contact extends StatelessWidget {
-  const DS7Contact({Key? key}) : super(key: key);
+  const DS7Contact({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,19 +22,22 @@ class DS7Contact extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const FrameTitle(
-                title: DataValues.contactTitle,
-                description: DataValues.contactDescription),
+              title: DataValues.contactTitle,
+              description: DataValues.contactDescription,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                SelectableText(DataValues.contactBanner,
-                    style: TextStyle(
-                      fontSize: AppThemeData
-                          .darkTheme.textTheme.titleMedium!.fontSize,
-                      fontWeight: AppThemeData
-                          .darkTheme.textTheme.titleLarge!.fontWeight,
-                      color: AppThemeData.textWhite,
-                    )),
+                SelectableText(
+                  DataValues.contactBanner,
+                  style: TextStyle(
+                    fontSize:
+                        AppThemeData.darkTheme.textTheme.titleMedium!.fontSize,
+                    fontWeight:
+                        AppThemeData.darkTheme.textTheme.titleLarge!.fontWeight,
+                    color: AppThemeData.textWhite,
+                  ),
+                ),
                 const SizedBox(width: 5.0),
                 MouseRegion(
                   cursor: SystemMouseCursors.click,
@@ -43,14 +46,16 @@ class DS7Contact extends StatelessWidget {
                       Clipboard.setData(
                         const ClipboardData(text: DataValues.contactEmail),
                       );
-                      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                        content: Text(
-                          'Email successfully copied to clipboard',
-                          textAlign: TextAlign.center,
-                          style: AppThemeData.darkTheme.textTheme.bodyLarge,
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: Text(
+                            'Email successfully copied to clipboard',
+                            textAlign: TextAlign.center,
+                            style: AppThemeData.darkTheme.textTheme.bodyLarge,
+                          ),
+                          duration: const Duration(seconds: 2),
                         ),
-                        duration: const Duration(seconds: 2),
-                      ));
+                      );
                     },
                     child: Tooltip(
                       message: 'Click to copy email to clipboard',
@@ -58,9 +63,15 @@ class DS7Contact extends StatelessWidget {
                         DataValues.contactEmail,
                         style: TextStyle(
                           fontSize: AppThemeData
-                              .darkTheme.textTheme.titleMedium!.fontSize,
+                              .darkTheme
+                              .textTheme
+                              .titleMedium!
+                              .fontSize,
                           fontWeight: AppThemeData
-                              .darkTheme.textTheme.titleLarge!.fontWeight,
+                              .darkTheme
+                              .textTheme
+                              .titleLarge!
+                              .fontWeight,
                           color: AppThemeData.textPrimary,
                         ),
                       ),
@@ -69,17 +80,12 @@ class DS7Contact extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(
-              height: 40.0,
-            ),
+            const SizedBox(height: 40.0),
             const SocialProfiles(),
-            const SizedBox(
-              height: 20.0,
-            ),
+            const SizedBox(height: 20.0),
             ContainerBanner().type2(
-              message:
-                  'Visit profile.dileepabandara.dev to view my all profiles >>',
-              url: DataValues.profilesURL,
+              message: 'Visit flutter-links-site to view my all links >>',
+              url: DataValues.linksURL,
             ),
           ],
         ),
