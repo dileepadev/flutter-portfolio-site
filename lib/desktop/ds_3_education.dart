@@ -7,7 +7,7 @@ import '../widgets/container_card.dart';
 import '../widgets/frame_title.dart';
 
 class DS3Education extends StatelessWidget {
-  const DS3Education({Key? key}) : super(key: key);
+  const DS3Education({super.key});
 
   @override
   Widget build(BuildContext context) {
