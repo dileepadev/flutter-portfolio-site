@@ -14,11 +14,24 @@
 ![GitHub Total Downloads](https://img.shields.io/github/downloads/dileepadev/dileepadev/total?color=4a2600&label=Total%20Downloads&style=flat-square)
 ![Website Status](https://img.shields.io/website?down_message=Down%20%26%20Offline&label=Website%20Status&up_message=Up%20%26%20Online&url=https%3A%2F%2Fdileepadev)
 
-![Preview Image](https://dileepadev.github.io/images/flutter-portfolio-site/preview.png)
+![Preview Image](https://dileepadev.github.io/images/flutter-portfolio-site/preview.gif)
 
 ## ✨ About
 
-This is a personal portfolio website built using Flutter. It showcases my skills, projects, and experiences in a visually appealing manner. The website is designed to be responsive and user-friendly, providing visitors with an engaging experience.
+**Flutter Portfolio Site** is a **demo single-page Flutter web project**. It’s **not an app I use in my day-to-day work**. It’s a personal project to **showcase an online personal portfolio**.
+
+The website includes the following **sections**:
+
+* **Header** - Introduction and Social Profiles
+* **About Me** - Biography and Personal Details
+* **Education** - Academic Qualifications
+* **Experience** - Professional Work History
+* **Volunteering** - Community Involvement
+* **Tech Notes** - Technical Articles and Notes
+* **Contact** - Contact Information
+* **Footer** - Copyright and Links
+
+It’s also designed as a **template for anyone who wants to build a similar personal portfolio with Flutter**, making it easy to experiment, learn, or start a personal website of your own.
 
 ## 🌐 Website
 
@@ -35,7 +48,7 @@ Deployed Website: <https://dileepadev.github.io/flutter-portfolio-site>
 > | First release | v1.0.0 | February 9, 2023 |
 > | Pre-Feature release 1 | v1.1.0 | February 16, 2023 |
 > | Feature release 1 | v1.1.1 | February 16, 2023 |
-> | Feature release 2 | v1.2.0 | December 31, 2025 |
+> | Feature release 2 | v1.2.0 | January 1, 2026 |
 >
 ### 🎉 View all releases
 
@@ -45,66 +58,71 @@ Deployed Website: <https://dileepadev.github.io/flutter-portfolio-site>
 
 Source Code
 
-- [main](https://github.com/dileepadev/flutter-portfolio-site/tree/main) - Stable and latest version
+* [main](https://github.com/dileepadev/flutter-portfolio-site/tree/main) - Stable and latest version
   of the source code
-- [1.0.0](https://github.com/dileepadev/flutter-portfolio-site/tree/1.0.0) - Stable 1.0.0 version of
+* [1.0.0](https://github.com/dileepadev/flutter-portfolio-site/tree/1.0.0) - Stable 1.0.0 version of
   the source code
-- [1.1.1](https://github.com/dileepadev/flutter-portfolio-site/tree/1.1.1) - Stable 1.1.1 version of
+* [1.1.1](https://github.com/dileepadev/flutter-portfolio-site/tree/1.1.1) - Stable 1.1.1 version of
   the source code
-- [1.2.0](https://github.com/dileepadev/flutter-portfolio-site/tree/1.2.0) - Stable 1.2.0 version of
+* [1.2.0](https://github.com/dileepadev/flutter-portfolio-site/tree/1.2.0) - Stable 1.2.0 version of
   the source code
 
 Web Build
 
-- [web-build](https://github.com/dileepadev/flutter-portfolio-site/tree/web-build) - Stable and
+* [web-build](https://github.com/dileepadev/flutter-portfolio-site/tree/web-build) - Stable and
   latest version of the web build
 
 ## 💙 Built With
 
 ### Original (Legacy) Project
 
-- [Flutter](https://flutter.dev)
-  - Flutter 3.7.2 • channel stable
-  - Tools • Dart 2.19.2 • DevTools 2.20.1
-- [GitHub Pages](https://pages.github.com)
+* [Flutter](https://flutter.dev)
+  * Flutter 3.7.2 • channel stable
+  * Tools • Dart 2.19.2 • DevTools 2.20.1
+* [GitHub Pages](https://pages.github.com)
 
 ### Current Project
 
-- [Flutter](https://flutter.dev)
-  - Flutter 3.38.5 • channel stable
-  - Tools • Dart 3.10.4 • DevTools 2.51.1
-- [GitHub Pages](https://pages.github.com)
+* [Flutter](https://flutter.dev)
+  * Flutter 3.38.5 • channel stable
+  * Tools • Dart 3.10.4 • DevTools 2.51.1
+* [GitHub Pages](https://pages.github.com)
 
 ## 📌 Prerequisites
 
-- Setup [Flutter](https://flutter.dev) in the development environment.
-- Setup a code editor like [Android Studio](https://developer.android.com/studio) or [Visual Studio Code](https://code.visualstudio.com) in the development environment.
-- Setup [Git](https://git-scm.com) in the development environment.
-- Should be fine with the `flutter doctor` command.
-- Anything related to the Flutter app development.
+* Setup [Flutter](https://flutter.dev) in the development environment.
+* Setup a code editor like [Android Studio](https://developer.android.com/studio) or [Visual Studio Code](https://code.visualstudio.com) in the development environment.
+* Setup [Git](https://git-scm.com) in the development environment.
+* Should be fine with the `flutter doctor` command.
+* Anything related to the Flutter app development.
 
 ## 💡 How to Setup
 
-- Download or clone the repository.
-- Move the project to the selected directory.
-- Open it with a code editor such as [Android Studio](https://developer.android.com/studio) or [Visual Studio Code](https://code.visualstudio.com).
-- Run `flutter clean` and `pub get` commands.
-- **Do not update or upgrade Gradle and other versions until the app is up and running with built versions.**
+* Download or clone the repository.
+* Move the project to the selected directory.
+* Open it with a code editor such as [Android Studio](https://developer.android.com/studio) or [Visual Studio Code](https://code.visualstudio.com).
+* Run `flutter clean` and `pub get` commands.
+* **Do not update or upgrade Gradle and other versions until the app is up and running with built versions.**
 
 ## 🚀 How to Run
 
-- Download `web-build` directory from the [web-build](https://github.com/dileepadev/dileepadev/tree/web-build) branch.
-- Move the build files to a server such as `localhost`, `GitHub Pages`, or any other `http/https` web server.
-- Set up and run the `index.html` file.
+* Download `web-build` directory from the [web-build](https://github.com/dileepadev/dileepadev/tree/web-build) branch.
+* Move the build files to a server such as `localhost`, `GitHub Pages`, or any other `http/https` web server.
+* Set up and run the `index.html` file.
+* Build the project using `flutter build web` command and deploy it to any web server.
+
+  ```bash
+  flutter build web --base-href /flutter-portfolio-site/
+  ```
 
 ## 🖼️ Icons and Images
 
-- [Icons8](https://icons8.com)
+* [Icons8](https://icons8.com)
 
 ## 💎 Dependencies
 
-- [Flutter](https://flutter.dev)
-- [URL Launcher](https://pub.dev/packages/url_launcher)
+* [Flutter](https://flutter.dev)
+* [URL Launcher](https://pub.dev/packages/url_launcher)
 
 ## 👑 Contributing
 
@@ -127,7 +145,7 @@ Dileepa Bandara
 
 If you want to contact me, leave a message via email.
 
-- Email - <contact@dileepa.dev>
+* Email - <contact@dileepa.dev>
 
 ## 📜 License
 
